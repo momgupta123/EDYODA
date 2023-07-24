@@ -243,6 +243,7 @@ const Countbill = () => {
       </div>
       <img src={Razpay} alt="scholo" className='razpay' />
       </div>
+      <span> <p>Special Thanks <b className='thanks'> Vaibhav</b></p> <p>by Raushan</p></span>
     </div>
   );
 };
