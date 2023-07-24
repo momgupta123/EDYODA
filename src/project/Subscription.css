@@ -1,0 +1,75 @@
+ .subscription-container {
+    width: 444px;
+    height: 34px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    
+  }
+  .check{
+    position: relative;
+    left: 2px;
+  }
+  .check.selected{
+    background-color: aqua;
+  }
+
+  .subscription-plan {
+     /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;  */
+  }
+  
+  .subscription-plan input[type="radio"] {
+  position: relative;
+  left: -12px;
+  bottom: 7px;
+}
+.Months{
+    position: relative;
+     top: -26px;
+     left: 9px;
+}
+.parag{
+    position: relative;
+     top: -52px;
+     font-size:12px;
+     left: 359px;
+}
+.parag1{
+    position: relative;
+     top: -52px;
+     font-size:12px;
+     left: 359px;
+}
+  .total-price {
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .total-price.selected {
+    background-color: #8fd998; /* Green color when selected*/ 
+  }
+  
+  .total-price h3,
+  .total-price p {
+    margin: 5px;
+  }
+  
+  .blue-text {
+    color: blue;
+  }
+  
+  .white-text {
+    color: white;
+  }
+   
+
+   
